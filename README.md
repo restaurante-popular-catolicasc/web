@@ -6,22 +6,22 @@
 
 ```bash
 # Project setup
-$ yarn install
+yarn install
 
 # Compiles and hot-reloads for development
-$ yarn serve
+yarn serve
 
 # Compiles and minifies for production
-$ yarn build
+yarn build
 
 # Run your tests
-$ yarn test
+yarn test
 
 # Lints and fixes files
-$ yarn lint
+yarn lint
 
 # Run your unit tests
-$ yarn test:unit
+yarn test:unit
 ```
 
 ## Customize configuration
