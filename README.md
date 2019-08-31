@@ -1,34 +1,29 @@
-# web
+# Restaurante Comunitário - Web
 
-## Project setup
-```
-yarn install
-```
+![GitHub issues](https://img.shields.io/github/issues/restaurante-popular-catolicasc/web)
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+## Commands
 
-### Compiles and minifies for production
-```
-yarn run build
-```
+```bash
+# Project setup
+$ yarn install
 
-### Run your tests
-```
-yarn run test
-```
+# Compiles and hot-reloads for development
+$ yarn serve
 
-### Lints and fixes files
-```
-yarn run lint
-```
+# Compiles and minifies for production
+$ yarn build
 
-### Run your unit tests
-```
-yarn run test:unit
+# Run your tests
+$ yarn test
+
+# Lints and fixes files
+$ yarn lint
+
+# Run your unit tests
+$ yarn test:unit
 ```
 
-### Customize configuration
+## Customize configuration
+
 See [Configuration Reference](https://cli.vuejs.org/config/).
