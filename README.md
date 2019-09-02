@@ -1,6 +1,9 @@
-# Restaurante Comunitário - Web
-
-![GitHub issues](https://img.shields.io/github/issues/restaurante-popular-catolicasc/web)
+<h1 align="center">Restaurante Comunitário - Web :fork_and_knife:</h1>
+<p align="center">
+    <a href="https://github.com/restaurante-popular-catolicasc/web/issues">
+        <img alt="GitHub issues" src="https://img.shields.io/github/issues/restaurante-popular-catolicasc/web">
+    </a>
+</p>
 
 ## Comandos
 
