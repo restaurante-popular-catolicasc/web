@@ -2,28 +2,22 @@
 
 ![GitHub issues](https://img.shields.io/github/issues/restaurante-popular-catolicasc/web)
 
-## Commands
+## Comandos
 
 ```bash
-# Project setup
+# Instalar dependências
 yarn install
 
-# Compiles and hot-reloads for development
+# Rodar o projeto em modo de desenvolvimento
 yarn serve
 
-# Compiles and minifies for production
+# Compilar e minificar para a produção
 yarn build
 
-# Run your tests
+# Rodar os testes
 yarn test
 
-# Lints and fixes files
+# Rodar o linter e corrigir os arquivos
 yarn lint
 
-# Run your unit tests
-yarn test:unit
 ```
-
-## Customize configuration
-
-See [Configuration Reference](https://cli.vuejs.org/config/).
