@@ -35,3 +35,10 @@ Também é recomendado utilizar o [VS Code](https://code.visualstudio.com) com a
 - [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
 - [Vuetify CamelCase Snippets](https://marketplace.visualstudio.com/items?itemName=Coder911th.vuetify-camelcase-snippets)
+
+## Documentações
+
+- [Vue](https://br.vuejs.org/v2/guide/)
+- [Vue Router](https://router.vuejs.org/guide/)
+- [Vuetify](https://vuetifyjs.com/pt-BR/getting-started/quick-start)
+- [Vuex](https://vuex.vuejs.org/ptbr/)
