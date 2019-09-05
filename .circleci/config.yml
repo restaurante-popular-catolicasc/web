@@ -16,5 +16,8 @@ jobs:
           paths:
             - ./node_modules
       - run:
+          name: Running linter
+          command: yarn lint
+      - run:
           name: Running unit tests
-          command: yarn test
+          command: yarn test:coverage
