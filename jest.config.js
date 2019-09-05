@@ -16,14 +16,14 @@ module.exports = {
   ],
   testURL: 'http://localhost/',
   watchPlugins: ['jest-watch-typeahead/filename', 'jest-watch-typeahead/testname'],
-  collectCoverageFrom: ['src/**/*.{js,vue}', '!src/main.js'],
+  collectCoverageFrom: ['src/**/*.{js,vue}', '!src/(main.js|router.js)'],
   coverageReporters: ['json', 'lcov', 'text', 'clover', 'html'],
   coverageThreshold: {
     global: {
-      branches: 80,
-      functions: 80,
-      lines: 80,
-      statements: -10
+      branches: 100,
+      functions: 100,
+      lines: 100,
+      statements: 100
     }
   }
 }
