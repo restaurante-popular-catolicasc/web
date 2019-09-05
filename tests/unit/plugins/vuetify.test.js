@@ -1,7 +1,7 @@
 import vuetify from '@/plugins/vuetify'
 
 describe('vuetify.js', () => {
-  it('test theme', () => {
+  it('theme should be equal to the expected theme', () => {
     const expectedTheme = {
       primary: '#ee44aa',
       secondary: '#424242',
@@ -16,11 +16,11 @@ describe('vuetify.js', () => {
     expect(theme).toEqual(expectedTheme)
   })
 
-  it('test language', () => {
+  it('language should be equal to "pt"', () => {
     expect(vuetify.framework.lang.current).toBe('pt')
   })
 
-  it('test icon package', () => {
+  it('icon package should be equal to "mdi"', () => {
     expect(vuetify.framework.icons.iconfont).toBe('mdi')
   })
 })
