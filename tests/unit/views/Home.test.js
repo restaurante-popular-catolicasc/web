@@ -1,7 +1,7 @@
 import Vuetify from 'vuetify'
 import { mount, createLocalVue } from '@vue/test-utils'
 
-import SilenceWarnHack from '../SilenceWarnHack'
+import SilenceWarnHack from '../../SilenceWarnHack'
 import Home from '@/views/Home.vue'
 
 const silenceWarnHack = new SilenceWarnHack()
