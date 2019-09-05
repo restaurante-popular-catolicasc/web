@@ -17,7 +17,7 @@ module.exports = {
   testURL: 'http://localhost/',
   watchPlugins: ['jest-watch-typeahead/filename', 'jest-watch-typeahead/testname'],
   collectCoverageFrom: ['src/**/*.{js,vue}', '!src/main.js'],
-  coverageReporters: ['json', 'lcov', 'text', 'clover', 'html'],
+  coverageReporters: ['json', 'lcov', 'text-lcov', 'text', 'clover', 'html'],
   coverageThreshold: {
     global: {
       branches: 80,
