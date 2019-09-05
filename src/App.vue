@@ -24,9 +24,6 @@
 
 <script>
 export default {
-  name: 'App',
-  data: () => ({
-    //
-  })
+  name: 'App'
 }
 </script>
