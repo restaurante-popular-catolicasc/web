@@ -6,7 +6,15 @@ jobs:
       - image: circleci/node
     steps:
       - checkout
-      - node/with-cache:
-        steps:
-          - run: yarn install
-      - run: yarn test
+      - restore_cache:
+        key: dependency-cache-{{ checksum "package.json" }}
+      - run:
+          name: install-yarn
+          command: yarn install
+      - save_cache:
+          key: dependency-cache-{{ checksum "package.json" }}
+          paths:
+            - ./node_modules
+      - run:
+        name: test
+        command: yarn test
