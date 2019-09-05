@@ -1,12 +1,29 @@
-import { shallowMount } from '@vue/test-utils'
-import HelloWorld from '@/components/HelloWorld.vue'
+import Vuetify from 'vuetify'
+import { mount, createLocalVue } from '@vue/test-utils'
 
-describe('HelloWorld.vue', () => {
-  it('renders props.msg when passed', () => {
-    const msg = 'new message'
-    const wrapper = shallowMount(HelloWorld, {
-      propsData: { msg }
+import SilenceWarnHack from '../SilenceWarnHack'
+import Home from '@/views/Home.vue'
+
+const silenceWarnHack = new SilenceWarnHack()
+
+describe('Home.vue', () => {
+  let localVue
+
+  beforeEach(() => {
+    silenceWarnHack.enable()
+    localVue = createLocalVue()
+    localVue.use(Vuetify)
+    silenceWarnHack.disable()
+  })
+
+  it('renders "Hello, world!" when passed', () => {
+    const msg = 'Hello, world!'
+    const wrapper = mount(Home, {
+      localVue
     })
-    expect(wrapper.text()).toMatch(msg)
+
+    const title = wrapper.find('.col > .hello')
+
+    expect(title.text()).toMatch(msg)
   })
 })
