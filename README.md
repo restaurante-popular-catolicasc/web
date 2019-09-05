@@ -30,11 +30,11 @@ Para rodar o projeto é necessário ter o [Node.js](https://nodejs.org/en/) e o 
 
 Também é recomendado utilizar o [VS Code](https://code.visualstudio.com) com as seguintes extensões:
 
-- [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
+- [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 - [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-- [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
-- [Vuetify CamelCase Snippets](https://marketplace.visualstudio.com/items?itemName=Coder911th.vuetify-camelcase-snippets)
+- [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
+- [Vuetify VS Code](https://marketplace.visualstudio.com/items?itemName=vuetifyjs.vuetify-vscode)
 
 ## Documentações
 
