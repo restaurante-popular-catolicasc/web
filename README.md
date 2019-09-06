@@ -58,4 +58,4 @@ Além disso há a extensão [Vue DevTools](https://github.com/vuejs/vue-devtools
 
 ## Contribuindo
 
-Para visualizar o guia de contribuição, [clique aqui](.github/CONTRIBUTING)
+Para visualizar o guia de contribuição, [clique aqui](.github/CONTRIBUTING.md)
