@@ -55,3 +55,7 @@ Além disso há a extensão [Vue DevTools](https://github.com/vuejs/vue-devtools
 - [Vue Test Utils](https://vue-test-utils.vuejs.org)
 - [Vuetify](https://vuetifyjs.com/pt-BR/getting-started/quick-start)
 - [Vuex](https://vuex.vuejs.org/ptbr/)
+
+## Contribuindo
+
+Para visualizar o guia de contribuição, [clique aqui](.github/CONTRIBUTING)
