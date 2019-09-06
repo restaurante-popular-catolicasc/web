@@ -41,7 +41,9 @@ Também é recomendado utilizar o [VS Code](https://code.visualstudio.com) com a
 
 ## Documentações
 
+- [Jest](https://jestjs.io/docs/pt-BR/getting-started)
 - [Vue](https://br.vuejs.org/v2/guide/)
 - [Vue Router](https://router.vuejs.org/guide/)
+- [Vue Test Utils](https://vue-test-utils.vuejs.org)
 - [Vuetify](https://vuetifyjs.com/pt-BR/getting-started/quick-start)
 - [Vuex](https://vuex.vuejs.org/ptbr/)
