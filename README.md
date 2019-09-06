@@ -45,6 +45,8 @@ Também é recomendado utilizar o [VS Code](https://code.visualstudio.com) com a
 - [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
 - [Vuetify VS Code](https://marketplace.visualstudio.com/items?itemName=vuetifyjs.vuetify-vscode)
 
+Além disso há a extensão [Vue DevTools](https://github.com/vuejs/vue-devtools) para utilizar no navegador durante o desenvolvimento da aplicação.
+
 ## Documentações
 
 - [Jest](https://jestjs.io/docs/pt-BR/getting-started)
