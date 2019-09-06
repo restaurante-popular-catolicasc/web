@@ -20,7 +20,7 @@ cd web
 
 ## Criando uma branch
 
-Entrando na pasta do projeto, inicie uma nova branch e entre na mesma, é recomendando que a branch se inicie com o prefixo `feature-` e em seguida o nome da feature que será desenvolvida
+Entrando na pasta do projeto, inicie uma nova branch e entre na mesma, é recomendando que a branch se inicie com o prefixo `feature/` e em seguida o nome da feature que será desenvolvida
 
 ```sh
 # Substituir login-page pelo nome da feature a ser desenvolvida
