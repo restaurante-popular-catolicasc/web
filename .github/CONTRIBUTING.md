@@ -48,7 +48,7 @@ Terminado de desenvolver sua feature e feito os commits com as alterações, é 
 
 ```sh
 # Substituir feature-login-page pelo nome da branch que está sendo utilizada
-git push --set-upstream origin feature-login-page
+git push --set-upstream origin feature/login-page
 ```
 
 ## Pull request
