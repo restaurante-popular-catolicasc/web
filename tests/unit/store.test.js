@@ -1,4 +1,3 @@
-// eslint-disable-next-line import/named
 import { state, mutations, actions } from '@/store'
 
 describe('mutations tests', () => {
