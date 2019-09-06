@@ -75,4 +75,4 @@ Não! Ainda não acabou de vez! Basta você abrir o CI e ver o que deu errado e 
 
 Foi feito o review, o CI passou e tá tudo pronto pra ir pra `master`? Perfeito! Basta marcar o seu líder e ele vai aprovar o PR para você.
 
-![Adicionando reviewers ao PR](images/team-leader.png)
+![Atribuir PR ao líder](images/team-leader.png)
