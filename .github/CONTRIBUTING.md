@@ -27,6 +27,21 @@ Entrando na pasta do projeto, inicie uma nova branch e entre na mesma, é recome
 git checkout -b feature-login-page
 ```
 
+## Finalizando a feature
+
+Ao finalizar a feature não esqueça de rodar alguns comandos para verificar se está tudo ok, sendo eles:
+
+```sh
+# O linter para garantir que o código está escrito de acordo com o padrão
+yarn lint
+
+# Os testes unitários com o índice de cobertura
+yarn test:coverage
+
+# O build para garantir que o projeto está sendo compilado corretamente
+yarn build
+```
+
 ## Enviando para o repositório remoto
 
 Terminado de desenvolver sua feature e feito os commits com as alterações, é necessário subir sua branch para o repositório remoto
@@ -42,7 +57,7 @@ Feito isso a branch será enviada para o [repositório remoto](https://github.co
 
 ![Abrindo o PR](images/open-pull-request.png)
 
-Ao criar o pull request é necessário dar um nome a ele, o recomendando é colocar o número referente a issue que está sendo feita e o nome da feature, como por exemplo *#1 - Tela de login*.
+Ao criar o pull request é necessário dar um nome a ele, o recomendando é colocar o número referente a issue que está sendo feita e o nome da feature, como por exemplo _#1 - Tela de login_.
 
 Também precisa ser escrito a descrição do que foi feito seguindo o template de pull request existente.
 
