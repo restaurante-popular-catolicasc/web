@@ -47,7 +47,7 @@ yarn build
 Terminado de desenvolver sua feature e feito os commits com as alterações, é necessário subir sua branch para o repositório remoto
 
 ```sh
-# Substituir feature-login-page pelo nome da branch que está sendo utilizada
+# Substituir feature/login-page pelo nome da branch que está sendo utilizada
 git push --set-upstream origin feature/login-page
 ```
 
