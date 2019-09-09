@@ -55,17 +55,17 @@ git push --set-upstream origin feature/login-page
 
 Feito isso a branch será enviada para o [repositório remoto](https://github.com/restaurante-popular-catolicasc/web) e será necessário abrir um [pull request](https://github.com/restaurante-popular-catolicasc/web/compare) para enviar a feature para a branch `master`
 
-![Abrindo o PR](images/open-pull-request.png)
+![Abrindo o PR](assets/open-pull-request.png)
 
 Ao criar o pull request é necessário dar um nome a ele, o recomendando é colocar o número referente a issue que está sendo feita e o nome da feature, como por exemplo _#1 - Tela de login_.
 
 Também precisa ser escrito a descrição do que foi feito seguindo o template de pull request existente.
 
-![Inserindo o título e a descrição do PR](images/pull-request-title-and-description.png)
+![Inserindo o título e a descrição do PR](assets/pull-request-title-and-description.png)
 
 Não esqueça também de pedir para, pelo menos, duas pessoas fazerem o code review de suas alterações, para isso basta marcar elas no PR.
 
-![Adicionando reviewers ao PR](images/reviewers.png)
+![Adicionando reviewers ao PR](assets/reviewers.png)
 
 Feito tudo isso, agora é só clicar no **Create pull request** e aguardar o code review ser feito :wink:
 
@@ -90,4 +90,4 @@ Não! Ainda não acabou de vez! Basta você abrir o CI e ver o que deu errado e 
 
 Foi feito o review, o CI passou e tá tudo pronto pra ir pra `master`? Perfeito! Basta marcar o seu líder e ele vai aprovar o PR para você.
 
-![Atribuir PR ao líder](images/team-leader.png)
+![Atribuir PR ao líder](assets/team-leader.png)
