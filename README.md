@@ -6,6 +6,12 @@
       src="https://circleci.com/gh/restaurante-popular-catolicasc/web/tree/master.svg?style=svg"
     />
   </a>
+  <a href="https://codecov.io/gh/restaurante-popular-catolicasc/web">
+    <img
+      alt="Codecov"
+      src="https://codecov.io/gh/restaurante-popular-catolicasc/web/branch/master/graph/badge.svg"
+    />
+  </a>
   <a href="https://github.com/restaurante-popular-catolicasc/web/issues">
     <img
       alt="GitHub issues"
