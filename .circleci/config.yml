@@ -67,7 +67,7 @@ jobs:
       - attach_workspace:
           at: ~/web
       - run:
-          name: Install and configure dependencies
+          name: Configure GitHub
           command: |
             git config user.email "builds@circleci.com"
             git config user.name "CircleCI"
