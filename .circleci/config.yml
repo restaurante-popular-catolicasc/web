@@ -67,8 +67,17 @@ jobs:
       - attach_workspace:
           at: ~/web
       - run:
-          name: List
-          command: ls -la
+          name: List dist directory
+          command: ls -la dist/
+      - run:
+          name: Install and configure dependencies
+          command: |
+            yarn global add gh-pages
+            git config user.email "ci-build@catolicasc.org.br"
+            git config user.name "CI Build"
+      - run:
+          name: Deploy to GH Pages
+          command: gh-pages --dist dist/
 
 workflows:
   version: 2
@@ -80,4 +89,8 @@ workflows:
             - test
       - deploy:
           requires:
+            - test
             - build
+          # filters:
+          #   branches:
+          #     only: master
