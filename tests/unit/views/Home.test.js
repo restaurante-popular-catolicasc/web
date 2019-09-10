@@ -17,7 +17,7 @@ describe('Home.vue', () => {
   })
 
   it('renders "Hello, world!" when passed', () => {
-    const msg = 'Hello, world!'
+    const msg = 'Olá, mundo!'
     const wrapper = mount(Home, {
       localVue
     })
