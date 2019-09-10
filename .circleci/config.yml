@@ -7,7 +7,7 @@ jobs:
   test:
     docker:
       - image: circleci/node
-    parallelism: 3
+    parallelism: 1
     working_directory: ~/web
     steps:
       - checkout
@@ -36,7 +36,7 @@ jobs:
   build:
     docker:
       - image: circleci/node
-    parallelism: 3
+    parallelism: 1
     working_directory: ~/web
     steps:
       - checkout
@@ -61,8 +61,11 @@ jobs:
     docker:
       - image: circleci/node
     parallelism: 1
+    working_directory: ~/web
     steps:
       - checkout
+      - attach_workspace:
+          at: ~/web
       - run:
           name: List
           command: ls -la
