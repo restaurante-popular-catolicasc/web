@@ -27,7 +27,7 @@ jobs:
           command: yarn lint
       - run:
           name: Running unit tests
-          command: yarn test:coverage
+          command: yarn test
       - store_artifacts:
           path: coverage
           prefix: coverage
@@ -53,7 +53,7 @@ jobs:
             - ./node_modules
       - run:
           name: Building project
-          command: yarn build
+          command: yarn generate
       - persist_to_workspace:
           root: .
           paths: dist
